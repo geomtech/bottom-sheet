@@ -27,7 +27,7 @@ public struct BottomSheet<Content: View>: View {
     
     public init(
         isPresented: Binding<Bool>,
-        height: CGFloat,
+        height: Binding<CGFloat>,
         topBarHeight: CGFloat = 30,
         topBarCornerRadius: CGFloat? = nil,
         topBarBackgroundColor: Color = Color(.systemBackground),
